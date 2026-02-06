@@ -62,6 +62,11 @@ sudo apt install build-essential python3-dev python3-venv pkg-config \
     libgirepository1.0-dev libcairo2-dev libgtk-4-dev gir1.2-gtk-4.0 \
     libportaudio2 portaudio19-dev wl-clipboard libgtk4-layer-shell-dev wtype
 
+# Fedora
+sudo dnf install gtk4-devel gobject-introspection-devel cairo-devel \
+    python3-devel gcc pkg-config portaudio-devel wl-clipboard \
+    gtk4-layer-shell-devel wtype
+
 # Then
 python -m venv .venv && source .venv/bin/activate
 pip install -e .
