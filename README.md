@@ -6,8 +6,15 @@
 
 ![vent states](vent-states.png)
 
+[![CI](https://github.com/synthforged/vent/actions/workflows/ci.yml/badge.svg)](https://github.com/synthforged/vent/actions/workflows/ci.yml)
+[![GitHub release](https://img.shields.io/github/v/release/synthforged/vent)](https://github.com/synthforged/vent/releases)
+[![AUR](https://img.shields.io/aur/version/vent)](https://aur.archlinux.org/packages/vent)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![Python](https://img.shields.io/badge/python-%E2%89%A5%203.11-blue)
 ![Linux](https://img.shields.io/badge/platform-Linux%20%2F%20Wayland-informational)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![Downloads](https://img.shields.io/github/downloads/synthforged/vent/total)](https://github.com/synthforged/vent/releases)
+[![Stars](https://img.shields.io/github/stars/synthforged/vent)](https://github.com/synthforged/vent)
 
 </div>
 
