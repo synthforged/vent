@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vent"
+version = "1.0.1"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+    "faster-whisper",
+    "sounddevice",
+    "numpy",
+    "PyGObject",
+]
+
+[project.scripts]
+vent = "vent.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+vent = []

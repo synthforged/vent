@@ -1,0 +1,7 @@
+target-version = "py311"
+line-length = 120
+src = ["src"]
+
+[lint.per-file-ignores]
+# CDLL("libgtk4-layer-shell.so") must run before gi imports
+"src/vent/app.py" = ["E402"]

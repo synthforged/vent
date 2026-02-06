@@ -1,0 +1,42 @@
+name: Bug report
+description: Something broke
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what went wrong, what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Minimal steps to trigger the bug.
+      placeholder: |
+        1. Run vent
+        2. Click to record
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: distro
+    attributes:
+      label: Distro & compositor
+      placeholder: "Arch + Hyprland 0.45"
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Python version
+      placeholder: "3.12"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / errors
+      description: Run `vent` from a terminal and paste any output.
+      render: shell
